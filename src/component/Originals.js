@@ -57,6 +57,50 @@ const Originals = () => {
              </p>
              </ul> 
              </div>
+             <p className='pt-6 px-5 text-white font-semibold'>
+        Trending now</p>
+        <div className="  grid grid-cols-3 max-sm:grid-cols-3 
+        items-center justify-between pt-4 px-5 gap-1">
+            {imgs2.map((img) => (
+            <Original name={img}/>
+            ))}
+        </div>
+            <div className="max-sm:hidden ">
+           <ul  className=' grid grid-cols-1 sm:grid-cols-3 
+        items-center justify-between pt-2 px-5 gap-5'>
+             <p className=' text-gray-400 hover:text-white '>
+             Ant-Man and the Wasp: Quantumania
+             </p>
+             <p className=' text-gray-400 hover:text-white'>
+             Kantara
+             </p>
+             <p className=' text-gray-400 hover:text-white'>
+             John Wick: Chapter 4
+             </p>
+             </ul> 
+             </div>
+             <p className='pt-6 px-5 text-white font-semibold'>
+        Trending now</p>
+        <div className="  grid grid-cols-3 max-sm:grid-cols-3 
+        items-center justify-between pt-4 px-5 gap-1">
+            {imgs2.map((img) => (
+            <Original name={img}/>
+            ))}
+        </div>
+            <div className="max-sm:hidden ">
+           <ul  className=' grid grid-cols-1 sm:grid-cols-3 
+        items-center justify-between pt-2 px-5 gap-5'>
+             <p className=' text-gray-400 hover:text-white '>
+             Ant-Man and the Wasp: Quantumania
+             </p>
+             <p className=' text-gray-400 hover:text-white'>
+             Kantara
+             </p>
+             <p className=' text-gray-400 hover:text-white'>
+             John Wick: Chapter 4
+             </p>
+             </ul> 
+             </div>
              
           </div> 
   )
