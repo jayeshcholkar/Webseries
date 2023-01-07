@@ -1,4 +1,3 @@
-import Hero from "./component/Hero";
 import Leftside from "./component/Leftside";
 import Navbar from "./component/Navbar";
 import Originals from "./component/Originals";
@@ -6,22 +5,25 @@ import Slide from "./component/Slide";
 
 function App() {
   return(
-  <div className="flex bg-slate-900">
-{/* leftside */} 
+    
+    <div className="flex bg-slate-900 ">
+
 <Leftside />
-<div className="w-full xl:w-[85vw] ">
+    {/* leftside */} 
+<div className="w-[90%] items-center justify-center">
   {/* navbar */}
 <Navbar />
-{/* hero */}
+
+
 {/* <Hero /> */}
 <Slide />
 {/* orignal */}
 <Originals/>
+
 {/* footer */}
+    </div>
 </div>
 
-<div className ="h-screen"></div>
-  </div>
   );
 }
 

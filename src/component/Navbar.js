@@ -40,7 +40,7 @@ const Navbar = () => {
            </div>
         {/* rightside */}
         <div className="flex items-center gap-2">
-        <div className="flex items-center gap-1">
+        <div className="flex max-sm:hidden items-center gap-1">
         <div className="w-2.5 h-2.5 bg-green-500
         rounded-full"></div>
             <div className="text-[13px]">

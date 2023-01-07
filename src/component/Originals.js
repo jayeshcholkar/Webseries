@@ -15,8 +15,8 @@ const Originals = () => {
     <div>
         <p className='pt-6 px-5 text-white font-semibold'>
         Originals</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3
-        items-center justify-between pt-4 px-5 gap-4">
+        <div className="grid grid-cols-3 max-sm:grid-cols-3
+        items-center justify-between pt-4 px-5 gap-1">
             {imgs.map((img) => (
             <Original name={img}/>
             ))}
@@ -37,8 +37,8 @@ const Originals = () => {
              </div>
         <p className='pt-6 px-5 text-white font-semibold'>
         Trending now</p>
-        <div className="  grid grid-cols-1 sm:grid-cols-3 
-        items-center justify-between pt-4 px-5 gap-4">
+        <div className="  grid grid-cols-3 max-sm:grid-cols-3 
+        items-center justify-between pt-4 px-5 gap-1">
             {imgs2.map((img) => (
             <Original name={img}/>
             ))}
